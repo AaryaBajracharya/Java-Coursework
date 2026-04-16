@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PersonalPlan
+comment0.text=\r\n\ PersonalPlan\ class\ represents\ a\ subscription\ plan\ for\ individual\ users.\r\n\ It\ extends\ AIModel\ and\ adds\ a\ monthly\ prompt\ quota.\r\n\ \r\n\ Author\:\ Aarya\ Bajracharya\r\n\ Version\:\ Milestone\ 1\r\n\ \r\n
+comment1.params=modelName\ contextWindowSize\ price\ modelParameterCount\ promptsRemaining
+comment1.target=PersonalPlan(java.lang.String,\ int,\ double,\ int,\ int)
+comment2.params=
+comment2.target=int\ getPromptsRemaining()
+comment3.params=extraPrompts
+comment3.target=java.lang.String\ purchaseAdditionalPrompts(int)
+comment4.params=promptText\ responseLength
+comment4.target=java.lang.String\ givePrompt(java.lang.String,\ int)
+comment5.params=
+comment5.target=java.lang.String\ display()
+numComments=6
