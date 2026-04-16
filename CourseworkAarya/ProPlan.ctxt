@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ProPlan
+comment0.text=\r\n\ ProPlan\ class\ represents\ a\ subscription\ plan\ for\ professional\ users\ or\ teams.\r\n\ It\ extends\ AIModel\ and\ provides\ unlimited\ prompts,\ team\ member\ management,\r\n\ and\ context\ window\ validation.\r\n\ \r\n\ Author\:\ Aarya\ Bajracharya\r\n\ Version\:\ Milestone\ 1\r\n
+comment1.params=modelName\ contextWindowSize\ price\ modelParameterCount\ teamSlots
+comment1.target=ProPlan(java.lang.String,\ int,\ float,\ int,\ int)
+comment2.params=promptText\ responseLength
+comment2.target=java.lang.String\ givePrompt(java.lang.String,\ int)
+comment3.params=memberName
+comment3.target=java.lang.String\ addTeamMembers(java.lang.String)
+comment4.params=memberName
+comment4.target=java.lang.String\ removeTeamMembers(java.lang.String)
+comment5.params=
+comment5.target=int\ getTeamSlots()
+comment6.params=
+comment6.target=java.lang.String\ display()
+numComments=7

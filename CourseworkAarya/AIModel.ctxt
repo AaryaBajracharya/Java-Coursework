@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=AIModel
+comment0.text=\r\n\ AIModel\ class\ represents\ the\ base\ structure\ of\ an\ AI\ model.\r\n\ It\ stores\ model\ details\ such\ as\ name,\ context\ window,\ price,\ \r\n\ and\ parameter\ count,\ and\ provides\ methods\ for\ checking\ token\ limits.\r\n\ \r\n\ Author\:Aarya\ Bajracharya\r\n\ Version\:\ Milestone\ 1\r\n\ \r\n
+comment1.params=modelName\ contextWindowSize\ price\ modelParameterCount
+comment1.target=AIModel(java.lang.String,\ int,\ float,\ int)
+comment2.params=promptText\ outputTokens
+comment2.target=boolean\ isWithinContext(java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getModelName()
+comment4.params=
+comment4.target=int\ getContextWindowSize()
+comment5.params=
+comment5.target=float\ getPrice()
+comment6.params=
+comment6.target=int\ getModelParameterCount()
+comment7.params=
+comment7.target=java.lang.String\ display()
+numComments=8
